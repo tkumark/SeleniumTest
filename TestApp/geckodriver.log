@@ -1,0 +1,51 @@
+1482811579960	geckodriver	INFO	Listening on 127.0.0.1:53139
+1482811580959	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.h3KAD0ype4OD
+1482811580959	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1482811580961	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37212
+1482811581451	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1482811581452	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1482811581466	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1482811581467	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1482811581838	Marionette	INFO	Listening on port 37212
+1482811582099	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1482811582100	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1482811582106	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1482811582106	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1482811584634	Marionette	WARN	Using deprecated data structure for setting timeouts
+JavaScript error: https://cdn.optimizely.com/js/7346230069.js, line 26: ReferenceError: jQuery is not defined
+1482813732630	geckodriver	INFO	Listening on 127.0.0.1:54627
+1482813733626	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.ZBFKfeaIqzcw
+1482813733627	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1482813733630	geckodriver::marionette	INFO	Connecting to Marionette on localhost:46163
+1482813734080	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1482813734082	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1482813734103	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1482813734104	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1482813734538	Marionette	INFO	Listening on port 46163
+1482813734783	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1482813734784	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1482813734789	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1482813734789	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1482813737476	Marionette	WARN	Using deprecated data structure for setting timeouts
+JavaScript error: https://cdn.optimizely.com/js/7346230069.js, line 26: ReferenceError: jQuery is not defined
+[Child 30486] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-efMdOj/firefox-51.0~b6+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 323
+[Child 30486] ###!!! ABORT: Aborting on channel error.: file /build/firefox-efMdOj/firefox-51.0~b6+build1/ipc/glue/MessageChannel.cpp, line 2056
+[Child 30486] ###!!! ABORT: Aborting on channel error.: file /build/firefox-efMdOj/firefox-51.0~b6+build1/ipc/glue/MessageChannel.cpp, line 2056
+1482814006453	geckodriver	INFO	Listening on 127.0.0.1:43215
+1482814007455	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.fuZEK89NmHEG
+1482814007457	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1482814007460	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37924
+1482814007809	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1482814007810	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1482814007824	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1482814007825	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1482814008213	Marionette	INFO	Listening on port 37924
+1482814008476	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1482814008477	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1482814008485	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1482814008485	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1482814011161	Marionette	WARN	Using deprecated data structure for setting timeouts
+JavaScript error: https://cdn.optimizely.com/js/7346230069.js, line 26: ReferenceError: jQuery is not defined
+[Child 30641] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-efMdOj/firefox-51.0~b6+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 323
+[Child 30641] ###!!! ABORT: Aborting on channel error.: file /build/firefox-efMdOj/firefox-51.0~b6+build1/ipc/glue/MessageChannel.cpp, line 2056
+[Child 30641] ###!!! ABORT: Aborting on channel error.: file /build/firefox-efMdOj/firefox-51.0~b6+build1/ipc/glue/MessageChannel.cpp, line 2056
