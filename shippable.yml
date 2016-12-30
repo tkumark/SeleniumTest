@@ -3,4 +3,6 @@ language: python
 script:
   - sudo apt-get update
   - sudo apt-get install python2.7 python-pip wget -y
-  - python AppLoad.py
+  - ls -a
+  - pwd
+  - python ./TestApp/AppLoad.py
