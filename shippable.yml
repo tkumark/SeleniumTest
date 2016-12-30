@@ -1,4 +1,5 @@
-build_image: selenium/standalone-chrome:3.0.1-carbon
+build_image: selenium/standalone-chrome:3.0.1-
+language: python
 script:
   - sudo apt-get update
   - sduo apt-get install python2.7 python-pip wget -y
