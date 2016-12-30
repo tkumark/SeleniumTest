@@ -1,4 +1,4 @@
-build_image: selenium/standalone-chrome:3.0.1-
+build_image: selenium/standalone-chrome:3.0.1-carbon
 language: python
 script:
   - sudo apt-get update
