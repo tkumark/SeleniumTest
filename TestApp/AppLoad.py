@@ -11,8 +11,10 @@ class TestSite(unittest.TestCase):
    def setUp(self):
        #self.driver = webdriver.Remote(command_executor='http://hub:4444/wd/hub',desired_capabilities=DesiredCapabilities.FIREFOX) 
        #self.driver = webdriver.Remote(command_executor='http://10.20.56.18:4444/wd/hub',desired_capabilities=DesiredCapabilities.FIREFOX)             
-       self.driver=webdriver.Firefox()
-       self.driver.implicitly_wait(30)        
+       self.driver = webdriver.Remote(command_executor='http://localhost:4444/wd/hub',desired_capabilities=DesiredCapabilities.CHROME)
+       #self.driver=webdriver.Firefox()
+       
+      self.driver.implicitly_wait(30)        
        self.verificationErrors = []        
        self.driver.maximize_window()        
        self.driver.delete_all_cookies() 
