@@ -5,7 +5,7 @@ script:
   - sudo apt-get install python2.7 python-pip wget -y
   - python --version
   - pip --version
-  - sudo pip install selenium
+  - pip install selenium
   - ls -a
   - pwd
   - python ./TestApp/AppLoad.py
