@@ -9,6 +9,6 @@ script:
   - pip install selenium
   - ls -a
   - pwd
-  - top -n 1 > /home/seluser/top-output.txt
+  - top -b -n 1 > /home/seluser/top-output.txt
   - cat /home/seluser/top-output.txt
   - python ./TestApp/AppLoad.py
