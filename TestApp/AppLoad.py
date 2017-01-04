@@ -22,6 +22,12 @@ class TestSite(unittest.TestCase):
    def testName(self):
        self.driver.get("http://www.google.com/")
        print self.driver.title
+       self.assertEquals("a", "b", "a is not equal to b")
+   
+   def testName2(self):
+       self.driver.get("http://www.google.com/")
+       print self.driver.title
+       self.assertEquals("a", "a", "a is not equal to b")
    
    def tearDown(self):
        self.driver.quit()
