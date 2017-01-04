@@ -12,5 +12,7 @@ script:
   - top -b -n 1 > /home/seluser/top-output.txt
   - cat /home/seluser/top-output.txt
   - ls -la /opt/bin/entry_point.sh
-  - $GEOMETRY 
+  - nohup /opt/bin/entry_point.sh & 
+  - top -b -n 1 > /home/seluser/top-output2.txt
+  - cat /home/seluser/top-output2.txt
   - python ./TestApp/AppLoad.py
