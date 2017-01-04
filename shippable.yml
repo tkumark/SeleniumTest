@@ -15,4 +15,5 @@ script:
   - nohup /opt/bin/entry_point.sh & 
   - top -b -n 1 > /home/seluser/top-output2.txt
   - cat /home/seluser/top-output2.txt
+  - sleep 30s
   - python ./TestApp/AppLoad.py
