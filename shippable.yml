@@ -12,4 +12,5 @@ script:
   - top -b -n 1 > /home/seluser/top-output.txt
   - cat /home/seluser/top-output.txt
   - ls -la /opt/bin/entry_point.sh
+  - nohup /opt/bin/entry_point.sh & tail -f nohup.out
   - python ./TestApp/AppLoad.py
