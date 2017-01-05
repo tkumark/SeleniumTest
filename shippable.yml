@@ -14,3 +14,4 @@ script:
   - cat /home/seluser/top-output2.txt
   - sleep 30s
   - python ./TestApp/XMLReportTestSuite.py
+  - ls -la shippable
