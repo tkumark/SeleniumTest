@@ -9,4 +9,4 @@ remote_tests = unittest.TestLoader().loadTestsFromTestCase(TestSite)
 smoke_tests = unittest.TestSuite([remote_tests])
 # run the suite
 #http://docs.shippable.com/ci/advancedOptions/testCoverage/
-xmlrunner.XMLTestRunner(verbosity=2, output='shippable').run(smoke_tests)
+xmlrunner.XMLTestRunner(verbosity=2, output='shippable/testresults').run(smoke_tests)
