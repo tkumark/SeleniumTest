@@ -1,5 +1,5 @@
 import unittest
-from xmlrunner import xmlrunner
+import xmlrunner
 from AppLoad import TestSite
 
 # get all tests from SearchProductTest and HomePageTest class
